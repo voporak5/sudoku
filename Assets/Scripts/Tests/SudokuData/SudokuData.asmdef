@@ -1,9 +1,9 @@
 {
-    "name": "GridTests",
+    "name": "SudokuData",
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
-        "GridDefinition"
+        "SudokuDataAssembly"
     ],
     "includePlatforms": [
         "Editor"

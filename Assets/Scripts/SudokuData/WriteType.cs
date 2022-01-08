@@ -1,5 +1,5 @@
 ﻿namespace Sudoku
-{ 
+{
     public enum WriteType
     {
         SUCCESS = 0,

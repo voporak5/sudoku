@@ -10,10 +10,5 @@
             Row = row;
             Column = column;
         }
-
-        public override string ToString()
-        {
-            return string.Format("Row: {0} Column: {1}", Row, Column);
-        }
     }
 }
