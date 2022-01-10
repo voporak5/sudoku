@@ -1,4 +1,4 @@
-﻿namespace Sudoku
+﻿namespace Sudoku.Data
 {
     public class Key
     {

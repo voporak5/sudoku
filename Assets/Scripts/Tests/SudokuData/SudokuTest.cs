@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
-using Sudoku;
+using Sudoku.Data;
 
 namespace Tests
 {
@@ -26,7 +26,7 @@ namespace Tests
             };
 
             bool success = false;
-            Sudoku.Grid grid = new Sudoku.Grid();
+            Sudoku.Data.Grid grid = new Sudoku.Data.Grid();
             grid.ParseData(testGrid, out success);
 
             Assert.IsTrue(success);
@@ -48,7 +48,7 @@ namespace Tests
             };
 
             bool success = false;
-            Sudoku.Grid grid = new Sudoku.Grid();
+            Sudoku.Data.Grid grid = new Sudoku.Data.Grid();
             grid.ParseData(testGrid, out success);
 
             Assert.IsFalse(success);
@@ -69,7 +69,7 @@ namespace Tests
             };
 
             bool success = false;
-            Sudoku.Grid grid = new Sudoku.Grid();
+            Sudoku.Data.Grid grid = new Sudoku.Data.Grid();
             grid.ParseData(testGrid, out success);
 
             Assert.IsFalse(success);
@@ -90,7 +90,7 @@ namespace Tests
             };
 
             bool success = false;
-            Sudoku.Grid grid = new Sudoku.Grid();
+            Sudoku.Data.Grid grid = new Sudoku.Data.Grid();
             grid.ParseData(testGrid, out success);
 
             Assert.IsFalse(success);
@@ -124,7 +124,7 @@ namespace Tests
             };            
 
             bool success = false;
-            Sudoku.Grid grid = new Sudoku.Grid();
+            Sudoku.Data.Grid grid = new Sudoku.Data.Grid();
             grid.ParseData(testGrid, out success);
 
             Assert.IsTrue(success);
@@ -169,7 +169,7 @@ namespace Tests
             };
 
             bool success = false;
-            Sudoku.Grid grid = new Sudoku.Grid();
+            Sudoku.Data.Grid grid = new Sudoku.Data.Grid();
             grid.ParseData(testGrid, out success);
 
             Assert.IsTrue(success);
